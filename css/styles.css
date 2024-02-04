@@ -6,6 +6,7 @@ html {
   body{
     background-color: #212F3D;
     color: white;
+    font-weight:200;
   }
 
   header{
@@ -48,28 +49,16 @@ html {
     font-style: normal;
   }
 
-  .ingredient-container {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    margin-top: 1%;
-  }
-  
-  .ingredient {
-    flex: 1; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 14px;
-    text-align: center;
-    background-color: #F9E79F;
-    margin: 0 6px;
-    margin-bottom: 13px;
-
+  section ul li, section ol li {
+    font-size: 0.5rem;
+    line-height: 1.5;
   }
 
   article{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 4%;
+    margin-bottom: 4%;
     background-color: #212F3D;
    }
 
@@ -79,9 +68,19 @@ html {
     padding-bottom: 20px;
   }
 
-  section.section2{
-    background-color: #AED6F1;
-    text-align: center;
+  section.section1, section.section4{
+    background-color: #1A5276;
+    padding:5%;
+  } 
+
+  section.section2, section.section5{
+    background-color: #117864;
+    padding:5%;
+  } 
+
+  section.section3{
+    background-color: #1A5276;
+    padding:5%;
   } 
 
   .row {
@@ -97,9 +96,88 @@ html {
     text-align: center;
   }
 
+  a:link{
+    color: #2980B9;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: #8E44AD;
+    text-decoration: underline;
+  }
+
+  a:hover{
+    color: #C0392B;
+    text-decoration: none;
+  }
+
+  #Attraction input[type=attraction] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #Attraction button {
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #Attraction label{
+    font-size: 0.5rem; 
+  }
+  
+  #Attraction button:hover {
+    background-color: #4A5A6B;
+  }
+
+  /* table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    overflow: hidden;
+  }
+  
+  thead tr {
+    background-color: #5B2C6F;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    font-size: 0.5rem;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #009879;
+  }
+  
+  tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+
   footer{
+    text-align: center;
     background-color: #AED6F1;
-    padding-top: 20px;  
-    padding-bottom: 20px;
+    padding: 4%;
+    color: black;
   }
 
