@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>City Guide Kate Kim</title>
   <meta charset="UTF-8">
@@ -16,10 +16,18 @@
             <h1>City Guide</h1>
             <h2><em>The iconic city - Busan</em></h2>
         </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#places">Places</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#maps">Maps</a></li>
+            </ul>
+        </nav>
     </header>
-
+    
     <article>
-        <section class="section1">
+        <section id="about" class="section1">
             <h3>About</h3>
                 <p><strong>Busan</strong> (Korean: 부산; Korean pronunciation: [pusan]), officially Busan Metropolitan City, is South Korea's second most populous city after Seoul, with a population of over 3.4 million inhabitants as of 2017.[5] Formerly romanized as Pusan (and Fuzan under Japanese rule), it is the economic, cultural and educational center of southeastern South Korea, with its port being South Korea's busiest and the sixth-busiest in the world.The surrounding "Southeastern Maritime Industrial Region" (including Ulsan, South Gyeongsang, Daegu, and some of North Gyeongsang and South Jeolla) is South Korea's largest industrial area. The large volumes of port traffic and urban population in excess of 1 million make Busan a Large-Port metropolis using the Southampton System of Port-City classification.</p>
 
@@ -34,7 +42,7 @@
         </section>
 
         <!-- section 2 - places -->
-        <section class="section2">
+        <section id="places" class="section2">
             <h3>Places</h3>
             <div class="row">
               <div class="column" id="busan-cityscape">
@@ -50,7 +58,7 @@
                 <p><strong>The Gwangbok-dong, Nampo-dong, and Jungang-dong</strong> areas form the old central business district. Some of the restaurants in this district use family recipes passed down through the generations.</p>
               </div>
             </div>
-            <h3>Top Attractions</h3>
+
             <table>
               <thead>
                 <tr>
@@ -78,14 +86,14 @@
               </tbody>
             </table>
             <form id="Attraction">
-                <label for="fee">Attraction choice:</label>
-                <input type="attraction" id="attraction" name="attraction" placeholder="attraction" required>
-                <button type="reservation">Submit</button>
+                <label for="attraction">Attraction choice:</label>
+                <input type="text" id="attraction" name="attraction" placeholder="attraction" required>                
+                <button type="submit">Submit</button>
             </form>
           </section>          
 
         <!-- section 3 - education website external links -->
-        <section class="section3">
+        <section id="education" class="section3">
             <h3>Links for Education website</h3>
             <ul>
               <li><a href="https://www.pusan.ac.kr/eng/Main.do">Pusan National University</a></li>
@@ -94,7 +102,7 @@
             </ul>
           </section>          
 
-          <section class="section5">
+          <section id="maps" class="section5">
             <h3>Busan in Google maps</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208684.27366703638!2d128.86885495554557!3d35.18923402043419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb6de823cd35%3A0x35d8cb74247108a7!2sBusan%2C%20South%20Korea!5e0!3m2!1sen!2sus!4v1707073902050!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </section>
