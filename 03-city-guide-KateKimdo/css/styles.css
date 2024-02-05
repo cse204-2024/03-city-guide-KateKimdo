@@ -14,8 +14,8 @@ html {
     background-size: cover;
     background-position: center 40%;
     color: black;
-    padding-top: 10px;  
-    padding-bottom: 21px;
+    padding-top: 8px;  
+    padding-bottom: 8px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -23,6 +23,32 @@ html {
     background-color: #AED6F1; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
 
   h1{
     color: #5C4033;
