@@ -7,6 +7,7 @@ body{
   background-color: #212F3D;
   color: white;
   font-weight:200;
+  margin:0;
 }
 
 header{
@@ -25,29 +26,29 @@ header{
 }
 
 .navbar ul {
-  list-style-type: none;
-  margin: 0;
+  list-style-type: none; 
   padding: 0;
-  overflow: hidden;
-
+  margin: 0;
+  text-align: center; 
 }
 
 .navbar li {
-  float: left;
+  display: inline-block; 
 }
 
 .navbar li a {
   display: block;
-  color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 0.7rem;
+  color: black; 
+  font-size: 0.5rem; 
 }
 
 .navbar li a:hover {
-  background-color: #111;
+  background-color: #212F3D;
+  color: white;
 }
+
 
 
 h1{
@@ -90,8 +91,6 @@ article{
 
 section{
   font-size: 35px;
-  padding-top: 20px;  
-  padding-bottom: 20px;
 }
 
 section.section1, section.section4{
