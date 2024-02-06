@@ -1,0 +1,207 @@
+html {
+  font-family: 'Rig sans', sans-serif;
+  font-size: 24pt;
+}
+
+body{
+  background-color: #212F3D;
+  color: white;
+  font-weight:200;
+  margin:0;
+}
+
+header{
+  text-align: center;
+  background-size: cover;
+  background-position: center 40%;
+  color: black;
+  padding-top: 8px;  
+  padding-bottom: 8px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #AED6F1; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+}
+
+.navbar li {
+  display: inline-block; 
+}
+
+.navbar li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black; 
+  font-size: 0.5rem; 
+}
+
+.navbar li a:hover {
+  background-color: #212F3D;
+  color: white;
+}
+
+
+
+h1{
+  color: #5C4033;
+  text-transform: capitalize;
+  text-indent: -1rem;
+  font-size: 1.4rem;
+}
+
+h2{
+  color: #5C4033;
+  font-size: 1rem;
+  line-height: 0.8rem;
+}
+
+h3{
+  color: #F9E79F;
+  font-size: 0.6rem;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 0.5rem;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+section ul li, section ol li {
+  font-size: 0.5rem;
+  line-height: 1.5;
+}
+
+article{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #212F3D;
+ }
+
+section{
+  font-size: 35px;
+}
+
+section.section1, section.section4{
+  background-color: #1A5276;
+  padding:5%;
+} 
+
+section.section2, section.section5{
+  background-color: #117864;
+  padding:5%;
+} 
+
+section.section3{
+  background-color: #1A5276;
+  padding:5%;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 7px;
+}
+
+.center {
+  text-align: center;
+}
+
+a:link{
+  color: #2980B9;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #8E44AD;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #C0392B;
+  text-decoration: none;
+}
+
+#Attraction input[type=attraction] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#Attraction button {
+  padding: 10px 20px;
+  background-color: #3498DB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#Attraction label{
+  font-size: 0.5rem; 
+}
+
+#Attraction button:hover {
+  background-color: #4A5A6B;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  overflow: hidden;
+}
+
+thead tr {
+  background-color: #5B2C6F;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 12px 15px;
+  font-size: 0.5rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #009879;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+footer{
+  text-align: center;
+  background-color: #AED6F1;
+  padding: 4%;
+  color: black;
+}
