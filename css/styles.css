@@ -10,6 +10,7 @@ body{
   margin:0;
 }
 
+/* header */
 header{
   text-align: center;
   background-size: cover;
@@ -88,7 +89,7 @@ article{
   margin-bottom: 4%;
   background-color: #212F3D;
  }
-
+/* sections */
 section{
   font-size: 35px;
 }
@@ -120,7 +121,7 @@ section.section3{
 .center {
   text-align: center;
 }
-
+/* links */
 a:link{
   color: #2980B9;
   text-decoration: none;
